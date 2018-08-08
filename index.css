@@ -1,0 +1,54 @@
+body *{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Merriweather', serif;
+}
+html {
+  height:100%;
+}
+body {
+  color:white;
+  background: url(
+    https://cdn1.tekrevue.com/wp-content/uploads/2015/08/01-windows-95-start-menu-desktop.jpg)
+    no-repeat;
+  background-size:cover;
+  height:100%;
+  text-align:center;
+}
+
+
+.start-page, .question-page {
+  background-color: rgba(155, 57, 57, 0.267);
+  margin-left:auto;
+  margin-right:auto;
+  width:90%;
+  margin-top:30px;
+  height:auto;
+}
+
+label {
+  display:block;
+  background-color: rgba(219, 37, 37, 0.267);
+  padding:20px;
+  margin-bottom:10px;
+}
+
+.flag, img {
+  display:inline-block;
+  height:auto;
+  width:70%;
+}
+
+.results-image {
+  margin-bottom:-50px;
+}
+.hidden {
+  display: none;
+}
+
+button {
+  width:60%;
+  margin: 5vh 0;
+  padding: 1vh 0;
+}
